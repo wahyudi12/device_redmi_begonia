@@ -379,6 +379,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.videotelephony@1.0
 
+# Device Specific Settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # MediaTek IMS
 $(call inherit-product, vendor/mediatek/ims/mtk-ims.mk)
 
