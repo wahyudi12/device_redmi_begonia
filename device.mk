@@ -251,6 +251,10 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH)
+
 # Text classifier
 PRODUCT_PACKAGES += \
     libtextclassifier_hash.vendor
