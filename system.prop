@@ -135,3 +135,6 @@ sys.keep_app_1=com.dolby.ds1appUI
 
 # Spectrum
 spectrum.support=1
+
+# GBoard
+ro.com.google.ime.kb_pad_port_b=1
