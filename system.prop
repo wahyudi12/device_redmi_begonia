@@ -135,3 +135,6 @@ sys.keep_app_1=com.dolby.ds1appUI
 
 # Spectrum
 spectrum.support=1
+
+# GBoard
+ro.com.google.ime.corner_key_r=35
