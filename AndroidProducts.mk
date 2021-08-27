@@ -15,4 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_begonia.mk
+    $(LOCAL_DIR)/hentai_begonia.mk
+
+COMMON_LUNCH_CHOICES := \
+    hentai_begonia-user \
+    hentai_begonia-eng
