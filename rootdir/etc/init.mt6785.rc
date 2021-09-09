@@ -189,6 +189,7 @@ on post-fs
     symlink /dev/block/platform/bootdevice/by-name/preloader_b /dev/block/platform/bootdevice/by-name/preloader_ufs_b
 
 on post-fs-data
+rm /data/logcat.txt
     write /proc/bootprof "INIT:post-fs-data"
 
     # boot time fs tune
@@ -1113,3 +1114,9 @@ on property:ro.boot.product.hardware.sku=begonia
 # Disable AOSP RIL if MTK RIL is up
 on property:vendor.ril.mtk=1
     stop vendor.ril-daemon
+
+# logcat
+service logcat_debug /system/bin/logcat -b all -f /data/logcat.txt -v threadtime
+    class main
+    user root
+    group system
