@@ -1,0 +1,44 @@
+[
+  {
+    "remote"     : "github",
+    "repository" : "ZyCromerZ/begonia",
+    "target_path": "kernel/xiaomi/mt6785",
+    "branch"     : "new-q-oss"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "TeraaBytee/vendor_redmi_begonia",
+    "target_path": "vendor/redmi/begonia",
+    "branch"     : "11-old"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "TeraaBytee/vendor_redmi_begonia-firmware",
+    "target_path": "vendor/redmi/begonia-firmware",
+    "branch"     : "11-old"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "TeraaBytee/vendor_mediatek_opensource",
+    "target_path": "vendor/mediatek/opensource",
+    "branch"     : "11-old"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "TeraaBytee/vendor_mediatek_interfaces",
+    "target_path": "vendor/mediatek/interfaces",
+    "branch"     : "11-old"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "TeraaBytee/vendor_mediatek_ims",
+    "target_path": "vendor/mediatek/ims",
+    "branch"     : "11-old"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "TeraaBytee/device_mediatek_sepolicy",
+    "terget_path": "device/mediatek/sepolicy",
+    "branch"     : "11-old"
+  }
+]
