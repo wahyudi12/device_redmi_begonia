@@ -27,11 +27,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, device/redmi/begonia/device.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := true
+USE_LAWNCHAIR := true
 
-## Device identifier. This must come after all inclusions
+# Bootanimation Res
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Bootanimation
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
+
+# Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := potato_begonia
+PRODUCT_NAME := xtended_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
@@ -44,3 +54,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="begonia"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Maintainer
+XTENDED_BUILD_SUPPORT_URL := https://t.me/gengkapakbegonia
+XTENDED_BUILD_MAINTAINER := TeraaBytee

@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_begonia.mk
+    $(LOCAL_DIR)/xtended_begonia.mk
+
+COMMON_LUNCH_CHOICES := \
+    xtended_begonia-userdebug \
+    xtended_begonia-user \
+    xtended_begonia-eng
