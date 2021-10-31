@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_begonia.mk
+    $(LOCAL_DIR)/nad_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_begonia-userdebug \
-    komodo_begonia-user \
-    komodo_begonia-eng
+    nad_begonia-userdebug \
+    nad_begonia-user \
+    nad_begonia-eng
