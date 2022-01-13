@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_begonia.mk
+    $(LOCAL_DIR)/aosp_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_begonia-userdebug \
-    komodo_begonia-user \
-    komodo_begonia-eng
+    aosp_begonia-userdebug \
+    aosp_begonia-user \
+    aosp_begonia-eng
