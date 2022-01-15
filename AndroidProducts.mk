@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_begonia.mk
+    $(LOCAL_DIR)/aosp_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_begonia-userdebug \
-    nad_begonia-user \
-    nad_begonia-eng
+    aosp_begonia-userdebug \
+    aosp_begonia-user \
+    aosp_begonia-eng

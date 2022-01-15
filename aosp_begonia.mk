@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, device/redmi/begonia/device.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 USE_PIXEL_CHARGING := true
 TARGET_USES_BLUR := true
@@ -41,7 +41,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := nad_begonia
+PRODUCT_NAME := aosp_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
