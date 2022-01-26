@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2019 Potato Open Sauce Project
 #
@@ -15,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_begonia.mk
+    $(LOCAL_DIR)/arrow_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_begonia-userdebug \
-    nad_begonia-user \
-    nad_begonia-eng
+    arrow_begonia-userdebug \
+    arrow_begonia-user \
+    arrow_begonia-eng
