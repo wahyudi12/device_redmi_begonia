@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_begonia.mk
+    $(LOCAL_DIR)/nad_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_begonia-userdebug \
-    arrow_begonia-user \
-    arrow_begonia-eng
+    nad_begonia-userdebug \
+    nad_begonia-user \
+    nad_begonia-eng
